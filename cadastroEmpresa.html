@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleC.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+
+    <title>Cadastro Empresa</title>
+</head>
+<body class="cadastro-caminhao">
+    <form>
+        <div class="container" >
+            <h3>Cadastro da empresa</h3>
+            <input type="text" placeholder="Nome Completo" required>
+            <input class="w33" type="tel" placeholder="Telefone">
+            <input type="text" class="w33" class="input-padrao" data-ls-module="charCounter" maxlength="11" required placeholder="CNPJ" >
+            <input type="email" placeholder="Email" required>
+            <input type="text" class="w33" placeholder="Nome da empresa" required>
+                    
+            <fieldset>
+                <legend><h2 id="container-empresa">Cargo</h2></legend>
+                <select class="select">
+                    <option>Analista</option>
+                    <option>Assistente</option>
+                    <option>CEO/Sócio</option>
+                    <option>Controller</option>
+                    <option>Coordenador</option>
+                    <option>Diretor</option>
+                    <option>Estagiário</option>
+                    <option>Supervisor</option>
+                    <option>Trainee</option>
+                </select>
+            </fieldset>
+
+            <button class="btn-salvar">SALVAR</button>
+        </div>
+    </form>
+</body>
+</html>
