@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleC.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+
+        <title>Ordem de serviço</title>
+    </head>
+    <body class="ordem">
+        <form>
+        <div>
+            <h1>O que precisa transportar?</h1>
+        </div>
+
+        
+            <div id="container-ordem" >
+                <fieldset>
+                    <legend><h4>Qual o peso da sua carga?</h4></legend>
+                    <select class="select">
+                        <option>De 0 a 3,9 toneladas</option>
+                        <option>De 4 a 14 toneladas</option>
+                        <option>De 14,1 a 20 toneladas</option>
+                        <option>De 20,1 a 32 toneladas</option>
+                        <option>Mais de 32 tonelada</option>
+                        
+                    </select>
+                </fieldset >
+
+                <fieldset class="checkbox">
+                    <legend class="checkbox"><h4>Tipo de carga:</h4></legend>
+                    <label><input type="radio">Lotação</label>
+                    
+                    <label>  <input type="radio" checked>Fracionada</label>
+                </fieldset>
+
+                <input type="text" class="input-padrao-ordem" placeholder="Nome da empresa" required>
+                <input class="w33" type="tel" placeholder="Telefone" margin: 10px style="margin: 10px">
+
+                <input type="text" class="w33" data-ls-module="charCounter" maxlength="11" required placeholder="CNPJ" >
+                <input type="text" class="input-padrao-ordem" placeholder="Nome do responsável" required>
+                <input type="text" class="input-padrao-ordem" placeholder="Produto" required>
+
+                <label for="data" class="data-ordem">Data de embarque</label>
+                <input class="w33" type="datetime-local" name="" id="" placeholder="/ /" >
+                <label for="data" class="data-ordem">Data de entrega</label>
+                <input class="w33" type="datetime-local" name="" id="" placeholder="/ /">
+                
+                <fieldset>
+                    <legend><h4>Tipo de caminhão?</h4></legend>
+                    <select class="select">
+                        <option>Toco</option>
+                        <option>Carreta</option>
+                        <option>Carreta LS</option>
+                        <option>3/4</option>
+                        <option>Van</option>
+                        <option>Truck</option>
+                        <option>Bitrem</option>
+                        <option>Rodotrem</option>
+                        <option>VUC</option>
+                        <option>HR</option>
+                        <option>Utilitário</option>
+                        
+                    </select>
+                </fieldset >
+
+                <button class="btn-salvar">SALVAR</button>
+            </div>
+        </form>
+    </body>
+</html>

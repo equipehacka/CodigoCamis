@@ -10,6 +10,10 @@ body{
   background: white;
 }
 
+.ordem{
+  background: white;
+}
+
 form {
 	margin: 200px 40px 100px;
 	display: flex;
@@ -71,6 +75,13 @@ fieldset {
   border: none;
 }
 
+.checkbox {
+  margin: auto;
+  border: none;
+  display: inline-block;
+}
+
+
 .select{
   padding: 10px;
 }
@@ -83,6 +94,19 @@ fieldset {
   min-width: 100px;
   border: none;
   border-bottom:2px solid white;
+  text-align: center;
+  background: transparent;
+  outline: none;
+}
+
+.input-padrao-ordem{
+  display: flex; 
+  margin: 10px 10px 30px;
+  padding: 10px 25px;
+  width: 80%;
+  min-width: 100px;
+  border: none;
+  border-bottom:2px solid black;
   text-align: center;
   background: transparent;
   outline: none;
@@ -165,6 +189,7 @@ fieldset {
     border-radius: 20px;
     width: 400px;
 }
+
 
 #container-conta {
     padding: 10px;
@@ -273,4 +298,10 @@ div.titulo span {
 
 .titulo label{
   color: black;
+}
+
+.data-ordem{
+  margin: 10px 0 20px;
+  text-align: center;
+  display: flex;
 }
